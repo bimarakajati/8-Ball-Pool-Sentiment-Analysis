@@ -2,7 +2,7 @@
 **This project aims to classify the sentiment (negative, neutral, positive) of 8 Ball Pool game reviews on the Play Store**. By analyzing the reviews, we can gain insights into the overall user sentiment towards the game and identify areas for improvement. The classification model will help categorize the reviews accurately, enabling developers to make data-driven decisions to enhance the gaming experience.
 
 ## 🗂️ Dataset
-**This project utilizes a dataset of over 90,000 reviews scraped from the Play Store**. After performing extensive data cleaning and addressing the issue of unbalanced data, the final dataset consists of a total of **24,000 reviews**. This refined dataset will be used for sentiment classification, allowing for accurate analysis of user sentiment towards the 8 Ball Pool game. You can see the code used to scrape the data in [this notebook](https://github.com/bimarakajati/8-Ball-Pool-Sentiment-Analysis/blob/main/8BP_Scraping.ipynb)
+**This project utilizes a dataset of over 90,000 reviews scraped from the Play Store**. After performing extensive data cleaning and addressing the issue of unbalanced data, the final dataset consists of a total of **24,000 reviews**. This refined dataset will be used for sentiment classification, allowing for accurate analysis of user sentiment towards the 8 Ball Pool game. You can see the code used to scrape the data in [this notebook](8BP_Scraping.ipynb)
 
 ## 📚 Libraries
 The project uses the following libraries:
@@ -28,3 +28,9 @@ As you can see in the [notebook](https://github.com/bimarakajati/8-Ball-Pool-Sen
 3. Experiment 3 (Bi-LSTM + 70-30): 91.97%
 
 These results demonstrate the effectiveness of the models in accurately classifying the sentiment of 8 Ball Pool game reviews. **The highest accuracy was achieved by Experiment 3, which utilized a Bi-LSTM model with a 70-30 train-test split**.
+
+## 🚀 Streamlit Web App
+
+![Streamlit Web App](Image/screencapture-localhost-8501-2024-09-20-19_07_48.png)
+
+The project also includes a Streamlit web app that allows users to input their own review and receive a sentiment prediction. The app is can be accessed [here](https://8ballpool.streamlit.app/).
